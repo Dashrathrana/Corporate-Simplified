@@ -1,0 +1,792 @@
+/* About simplified starts================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: auto;
+  max-width: 1420px;
+  width: 100%;
+  display: block;
+}
+
+/* this is global,it will apply for whole page[website].======================== */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* top navigation start here=============== */
+.navbar {
+  background-color: #01265d;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  line-height: 36px;
+  margin: auto;
+}
+
+.navbar ul {
+  overflow: auto;
+  margin: 0;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 13px 12px;
+  position: relative;
+}
+
+.navbar li a {
+  padding: 3px 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.icon {
+  float: right;
+  display: flex;
+  position: relative;
+  right: 50px;
+  top: 17px;
+}
+
+.fb {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 10px;
+}
+.instagram {
+  width: 33px;
+  height: 30px;
+  position: relative;
+  left: 20px;
+}
+
+.whatsapp {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 30px;
+}
+/* top navigation end =============== */
+
+/*navigation two start here========== */
+.navbar-2 {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 115px;
+}
+
+.navbar-2 ul {
+  overflow: auto;
+  margin: 0;
+}
+
+.navbar-2 li {
+  float: left;
+  list-style: none;
+  position: relative;
+  left: 50px;
+}
+
+.navbar-2 li a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgb(6, 1, 15);
+  line-height: 100px;
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+}
+
+.icon-2 {
+  float: right;
+  color: white;
+  padding: 15px 15px;
+  line-height: 90px;
+}
+
+/* simplified text and left top logo===================== */
+.text {
+  line-height: 100px;
+  color: rgb(4, 2, 16);
+  padding-left: 45px;
+  font-size: 50px;
+  font-family: roboto;
+  position: relative;
+  right: 70px;
+  bottom: 5px;
+}
+
+.nav-two-simplified-text {
+  position: relative;
+  top: 13px;
+}
+
+.simplified-one {
+  height: 80px;
+  position: relative;
+  top: 22px;
+  left: 15px;
+}
+
+.simplified-two {
+  height: 80px;
+  position: relative;
+  right: 12px;
+  top: 24px;
+}
+
+/* free consulting manu==================== */
+.b {
+  float: right;
+  padding-left: 10px;
+  background-color: orangered;
+  color: white;
+  width: 240px;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 23px 20px;
+  margin-top: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  right: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.free-consulting {
+  font-size: 16px;
+}
+
+.top-white-aero {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 20px;
+  bottom: 8px;
+}
+
+.navbar-2 li a.active,
+.navbar-2 li a:hover {
+  color: orangered;
+}
+/*navigation two end here============================ */
+
+/* this is banner image start ============================== */
+.background-image {
+  display: flex;
+  margin: 0, auto;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 /2.7;
+  background-image: url(../../assets/images/business-group-picture.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.overlay-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 5px;
+ 
+}
+
+.overlay-text-one {
+  position: relative;
+  padding-left: 45px;
+  font-size: 60px;
+}
+
+.overlay-text-two {
+  font-size: 18px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  line-height: 20px;
+}
+/* banner image and text end here======================== */
+
+/*parent container start here=======================================*/
+.parent {
+  width: 100%;
+  height: auto;
+}
+
+.child {
+  width: 1420px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.child-one {
+  width: 50%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle-image-and-rectangle {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-top-circle {
+  width: 180px;
+  height: 180px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: relative;
+  right: 45px;
+  bottom: 30px;
+}
+
+.picture {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  bottom: 120px;
+  left: 40px;
+}
+
+.bottom-rectangle {
+  width: 230px;
+  height: 100px;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 120px;
+  left: 40px;
+}
+
+.right-rectangle-and-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-bottom-image {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  right: 100px;
+  top: 10px;
+}
+
+.right-rectangle-and-image > p {
+  width: 130px;
+  height: 100px;
+  background-color: orangered;
+  display: flex;
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+/*child one end ==================*/
+
+.child-two {
+  width: 50%;
+  height: 700px;
+}
+
+.child-two h3 {
+  color: orangered;
+  margin-top: 100px;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.child-two h2 {
+  color: rgb(5, 5, 28);
+  font-size: 26px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.child-two h4 {
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.rectangle {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inside-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.inside-container p1 {
+  width: 250px;
+  height: 100px;
+  background-color: orangered;
+  border-radius: 10px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-one {
+  color: rgb(2, 2, 46);
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+.text-two {
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.another-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.another-container h6 {
+  width: 250px;
+  height: 100px;
+  background-color: orangered;
+  border-radius: 10px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.one-more-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-three {
+  margin-left: 15px;
+  font-size: 15px;
+  color: rgb(3, 3, 31);
+  margin-top: 25px;
+}
+
+.text-four {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+/*parent container end here============================== */
+
+/*three image container start here======================== */
+.bottom-container {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-rectangle {
+  width: 33.33%;
+  height: 470px;
+  background-image: url("../../assets/images/professional-man-pic.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.left-rectangle-overlay-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.middle-rectangle {
+  width: 33.33%;
+  height: 470px;
+  background-image: url("../../assets/images/small-business-owner-computer.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  background-size: cover;
+}
+
+.middle-rectangle-overlay-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: roboto, sans-serif;
+}
+
+.right-rectangle {
+  width: 33.33%;
+  height: 470px;
+  background-image: url("../../assets/images/professional-picture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.right-rectangle-overlay-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: roboto, sans-serif;
+}
+
+.left-image > img {
+  width: 500px;
+  height: 470px;
+}
+
+.item-one {
+  font-size: 56px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.middle-item {
+  width: 100px;
+  height: 8px;
+  background-color: orangered;
+  margin-left: 50px;
+}
+
+.item-two {
+  font-size: 32px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.lower-item {
+  padding-left: 50px;
+  padding-top: 60px;
+  font-size: 16px;
+  line-height: 16px;
+}
+/* three image container end here=========================*/
+
+/*footer start here=========================================*/
+.footer-container {
+  width: 100%;
+  height: 450px;
+  background-color: #5d5b59;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.footer-inside-container {
+  width: 1420px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.long-rectangle {
+  width: 1090px;
+  height: 140px;
+  background-color: orangered;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  top: -15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-started {
+  position: relative;
+  right: 200px;
+  color: white;
+  font-size: 28px;
+}
+
+.contact-with {
+  position: relative;
+  left: 250px;
+  color: white;
+  width: 235px;
+  height: 65px;
+  background-color: #0b1b81;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.bulk-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulk-start {
+  display: flex;
+  flex-direction: column;
+}
+
+.simplified {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.dummy-text {
+  padding-top: 30px;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 15px;
+  right: 2px;
+}
+
+.fb-icon {
+  width: 35px;
+  height: 35px;
+}
+.communication-logo {
+  width: 40px;
+  height: 34px;
+  padding-left: 7px;
+}
+
+.instagram-logo {
+  width: 40px;
+  height: 35px;
+  padding-left: 8px;
+}
+
+.whatsapp-logo {
+  width: 36px;
+  height: 34px;
+  margin-top: 3px;
+  padding-left: 3px;
+  position: relative;
+  bottom: 3px;
+  left: 4px;
+}
+
+.second-text {
+  color: white;
+  padding-left: 70px;
+  position: relative;
+  top: 20px;
+}
+
+.explor {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  bottom: 5px;
+}
+
+.about {
+  font-size: 17px;
+  padding-top: 30px;
+  position: relative;
+  top: 5px;
+}
+
+.portf {
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.contact {
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.privacy {
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.help {
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.third-text {
+  color: white;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+
+.news {
+  padding-top: 10px;
+}
+
+.support {
+  padding-top: 10px;
+}
+
+.terms {
+  padding-top: 10px;
+}
+
+.fourth-text {
+  position: relative;
+  color: white;
+  padding-left: 90px;
+}
+
+.contact-two {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  bottom: 70px;
+}
+
+.number {
+  position: relative;
+  top: 20px;
+}
+
+.fourth-text-icon {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 50px;
+  top: 100px;
+}
+
+.location {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 15px;
+  bottom: 38px;
+}
+
+.call {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+
+.plaza {
+  position: relative;
+  bottom: 32px;
+}
+
+.fifth-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.newslatter {
+  position: relative;
+  bottom: 40px;
+  left: 100px;
+  color: white;
+}
+
+.email {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  left: 100px;
+  color: #5d5b59;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.aero-icon {
+  width: 40px;
+  width: 30px;
+  position: relative;
+  left: 20px;
+}
+
+.sixth-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+  top: 15px;
+}
+
+.search-footer-right {
+  width: 50px;
+  height: 51px;
+  background-color: orangered;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 7px;
+}
+
+.search-footer-right img {
+  width: 30px;
+  height: 30px;
+}
+/*------------responsive layout when max width is 700px---------- */
