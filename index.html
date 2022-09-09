@@ -6,6 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,10 +21,12 @@
 <body>
 	<header>
 		<nav class="navbar">
-			<div class="container">
+			<div class="nav-container">
 				<ul>
-					<li><a href="#">+(778)1951788</a></li>
-					<li><a href="#">marcentile plaza,TX,76137,USA</a></li>
+					<li><a href="#"><i class="fa-solid fa-phone"
+								style="font-size: 20px; margin-right: 2px;"></i>+(778)1951788</a></li>
+					<li><a href="#"><i class="fa-solid fa-location-dot"
+								style="margin-right: 10px; font-size: 20px;"></i>marcentile plaza,TX,76137,USA</a></li>
 					<div class="icon">
 						<img class="fb" src="./assets/images/2609541_facebook_media_social_icon.png" alt="fb">
 						<img class="twitter" src="./assets/images/4102580_applications_media_social_twitter_icon.png"
@@ -36,11 +41,11 @@
 			</div>
 		</nav>
 		<nav class="navbar-2">
-			<div class="container">
+			<div class="nav-container-two">
 				<div class="text">
 					<li><img class="simplified-one" src="./assets/images/Rectangle 1.png" alt="logo"></li>
 					<li><img class="simplified-two" src="./assets/images/Rectangle 2.png" alt="logo"></li>
-					<li class="nav-two-simplified-text">Simplified</li>
+					<li class="simplified-text">Simplified</li>
 				</div class="navlink">
 				<ul>
 					<li><a class="active" href="#">HOME</a></li>
@@ -49,9 +54,9 @@
 					<li><a href="#">BLOGS</a></li>
 					<LI><a href="#">PAGES</a></LI>
 					<li><a href="#">CONTACT US</a></li>
-					<div class="b">
-						<p class="free-consulting"> FREE CONSULTING</p>
-						<img class="top-white-aero" src="./assets/images/white_arrow.png" alt="white arrow">
+					<div class="button-menu">
+						<a class="free-consulting" href="#">FREE CONSULTING</a>
+						<a href="#"><i class="fa fa-light fa-arrow-right"></i></a>
 					</div>
 				</ul>
 			</div>
@@ -69,38 +74,39 @@
 		<div class="child">
 			<div class="child-one">
 				<div class="circle-image-and-rectangle">
+					<!--circle----------------------------------->
 					<div class="left-top-circle"></div>
 					<img class="picture" src="./assets/images/professional-man-pic.jpg" alt="man">
 					<div class="bottom-rectangle">25+<br>years of experience</div>
 				</div>
 				<div class="right-rectangle-and-image">
 					<p></p>
-					<img class="right-bottom-image" src="./assets/images/professional-man-pic.jpg" alt="">
+					<img class="right-bottom-image" src="./assets/images/professional-man-pic.jpg" alt="man">
 				</div>
 			</div>
 
 			<div class="child-two">
-				<h3>ABOUT SIMPLIFIED</h3>
+				<h3 class="about">ABOUT SIMPLIFIED</h3>
 				<h2>The Best Choice For Your<br> Successfull Business</h2>
-				<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iste eveniet totam ratione
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iste eveniet totam ratione
 					magnam. Velit modi praesentium officia ratione ipsa minus aliquam aspernatur sed labore aperiam,
-					deleniti ea facilis dolorem!</h4>
+					deleniti ea facilis dolorem!</p>
 				<div class="inside-container">
-					<p1>hand</p1>
-					<div conainer-two>
-						<p class="text-one">FOCUSED ON BUSINESS</p>
-						<p class="text-two">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolorem
+					<div class="logo-one"><i class="fa-solid fa-tree" style="font-size: 60px;"></i></div>
+					<div class="conainer-two">
+						<div class="text-one">Focused On Business</div>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolorem
 							alias voluptas laborum blanditiis odio voluptates minima. Autem accusantium laborum iste
 							aperiam amet sint error qui fuga aliquam corrupti! Assumenda?</p>
 					</div>
 				</div>
 				<div class="another-container">
-					<h6>icon</h6>
+					<div class="logo-two"><i class="fa-solid fa-head-side-virus" style="font-size: 60px;"></i></div>
 					<div class="one-more-container">
-						<h5 class="text-three">HIGH LEVEL OF YOUR KNOWLEDGE</h5>
+						<h5 class="text-three">High Level Of Your Knowledge</h5>
 						<p class="text-four">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero maiores
 							laudantium veniam architecto nostrum incidunt nulla voluptate provident! Debitis esse
-							obcaecati animi ratione molestias natus veniam libero consectetur quidem perferendis.</p>
+							obcaecati animi ratione.</p>
 					</div>
 				</div>
 			</div>
@@ -144,14 +150,14 @@
 			<div class="long-rectangle">
 				<h2 class="project-started">LETS GET YOUR PROJECT<br> STARTED</h2>
 				<div class="contact-with">
-					<p class="contact-with-us">Contact with us</p>
-					<img class="aero-icon" src="./assets/images/white_arrow.png" alt="aero">
+					<div><a href="#">Contact with us</a></div>
+					<a href="#"><i class="fa fa-light fa-arrow-right"></i></a>
 				</div>
 
 			</div>
 			<div class="bulk-text">
 				<div class="bulk-start">
-					<h2 class="simplified">simplified</h2>
+					<h2 class="simplified">Simplified</h2>
 					<p class="dummy-text">welcome to our business consulting<br> company.lorem ipsum simply free<br>
 						text dolor sit amet cons slit alit.</p>
 					<div class="icons">
@@ -183,9 +189,7 @@
 				<div class="fourth-text">
 					<div class="fourth-text-icon">
 						<img class="location" src="./assets/images/location-icon.png" alt="map">
-						<img class="call"
-							src="./assets/images/3403727_call_communication_device_phone_telephone_icon.png"
-							alt="telephone">
+						<img class="call" src="./assets/images/call-orenge.png" alt="telephone">
 					</div>
 					<h2 class="contact-two">Contact</h2>
 					<p class="plaza">4500,Mersentile plaza,suit,300<br>FRONT WORTH,Tx,76137,USA</p>
@@ -193,11 +197,10 @@
 				</div>
 				<div class="fifth-text">
 					<h2 class="newslatter">Newslettar</h2>
-					<p class="email">Email</p>
+					<a class="email" href="#">Email</a>
 				</div>
 				<div class="sixth-text">
-					<p class="search-footer-right"><img class="icon-search" src="./assets/images/search-icon-png-5.png"
-							alt="search"></p>
+					<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
 				</div>
 			</div>
 		</div>

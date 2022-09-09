@@ -4,12 +4,23 @@
   margin: 0;
 }
 
-.container {
+.nav-container {
   height: auto;
   max-width: 1420px;
   width: 100%;
   display: block;
+  margin: auto;
+ 
+  
+  
 }
+
+.nav-container ul li a{
+  position: relative;
+  right: 40px;
+}
+
+
 
 /* this is global,it will apply for whole page[website].======================== */
 body {
@@ -50,7 +61,7 @@ body {
   float: right;
   display: flex;
   position: relative;
-  right: 50px;
+  right: 31px;
   top: 17px;
 }
 
@@ -83,10 +94,22 @@ body {
 
 /*navigation two start here========== */
 .navbar-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   margin: auto;
   width: 100%;
-  height: 115px;
+  height: auto;
+}
+
+.nav-container-two{
+  height: auto;
+  max-width: 1420px;
+  width: 100%;
+  display: block;
+  margin: auto;
+ 
 }
 
 .navbar-2 ul {
@@ -130,61 +153,57 @@ body {
   bottom: 5px;
 }
 
-.nav-two-simplified-text {
+.simplified-text {
   position: relative;
-  top: 13px;
+  right: 50px;
+  top: 10px;
 }
 
 .simplified-one {
   height: 80px;
   position: relative;
   top: 22px;
-  left: 15px;
+  right: 25px;
 }
 
 .simplified-two {
   height: 80px;
   position: relative;
-  right: 12px;
+  right: 52px;
   top: 24px;
 }
 
 /* free consulting manu==================== */
-.b {
+.button-menu{
   float: right;
-  padding-left: 10px;
   background-color: orangered;
   color: white;
   width: 240px;
   height: 60px;
   font-size: 18px;
   border-radius: 10px;
-  padding: 23px 20px;
   margin-top: 25px;
   position: relative;
   display: flex;
   flex-direction: row;
-  right: 15px;
-  position: relative;
-  top: 2px;
+  align-items: center;
+  justify-content: space-around;
+  
 }
 
-.free-consulting {
-  font-size: 16px;
-}
-
-.top-white-aero {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  left: 20px;
-  bottom: 8px;
+.button-menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 600px;
 }
 
 .navbar-2 li a.active,
 .navbar-2 li a:hover {
   color: orangered;
 }
+
+
 /*navigation two end here============================ */
 
 /* this is banner image start ============================== */
@@ -216,7 +235,7 @@ body {
 
 .overlay-text-one {
   position: relative;
-  padding-left: 45px;
+  padding-left: 50px;
   font-size: 60px;
 }
 
@@ -265,19 +284,20 @@ body {
   border-radius: 50%;
   position: relative;
   right: 45px;
-  bottom: 30px;
+  top: 20px;
+ 
 }
 
-.picture {
+.picture  {
   width: 350px;
   height: 350px;
   position: relative;
-  bottom: 120px;
-  left: 40px;
+  bottom: 70px;
+  left: 45px;
 }
 
 .bottom-rectangle {
-  width: 230px;
+  width: 210px;
   height: 100px;
   background-color: orangered;
   display: flex;
@@ -286,7 +306,7 @@ body {
   text-align: center;
   position: relative;
   bottom: 120px;
-  left: 40px;
+  left: 45px;
 }
 
 .right-rectangle-and-image {
@@ -322,7 +342,7 @@ body {
   color: orangered;
   margin-top: 100px;
   font-size: 17px;
-  margin-left: 30px;
+  margin-left: 12px;
   margin-bottom: 40px;
   font-weight: 500;
 }
@@ -332,12 +352,20 @@ body {
   font-size: 26px;
   margin-left: 30px;
   font-weight: 500;
+  position: relative;
+ 
 }
 
 .child-two h4 {
   padding: 30px;
   font-size: 16px;
   font-weight: 400;
+}
+
+.child-two p{
+  padding: 20px;
+  position: relative;
+  left: 12px;
 }
 .rectangle {
   width: 100px;
@@ -352,9 +380,9 @@ body {
   flex-direction: row;
 }
 
-.inside-container p1 {
-  width: 250px;
-  height: 100px;
+.logo-one {
+  width: 230px;
+  height: 90px;
   background-color: orangered;
   border-radius: 10px;
   margin-left: 30px;
@@ -363,33 +391,39 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .container-two {
   display: flex;
   flex-direction: column;
 }
 
-.text-one {
-  color: rgb(2, 2, 46);
-  padding-left: 15px;
-  font-weight: 700;
+.container-two,.text-one{
+  margin-left: 31px;
+  font-weight: bold;
+  color: #4753a0;
+  font-family: myriad-pro;
+  font-size: 20px;
 }
 
-.text-two {
-  padding-left: 15px;
-  padding-top: 10px;
-  font-size: 16px;
-  font-weight: 400;
+.container-two,p{
+ position: relative;
+ bottom: 12px;
+ font-size: 15px;
+ line-height: 18px;
+ 
 }
+
 
 .another-container {
   display: flex;
   flex-direction: row;
 }
 
-.another-container h6 {
-  width: 250px;
-  height: 100px;
+.logo-two {
+  width: 180px;
+  height: 90px;
   background-color: orangered;
   border-radius: 10px;
   font-size: 16px;
@@ -399,7 +433,9 @@ body {
   flex-direction: column;
   font-weight: 400;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 12px;
+  position: relative;
+ 
 }
 
 .one-more-container {
@@ -407,17 +443,27 @@ body {
   flex-direction: column;
 }
 
-.text-three {
-  margin-left: 15px;
-  font-size: 15px;
-  color: rgb(3, 3, 31);
-  margin-top: 25px;
+.text-three  {
+  margin-left: 13px;
+  font-size: 20px;
+  color: #4753a0;
+  margin-top: 20px;
+  position: relative;
+  font-family: myried-pro;
+  font-weight: bold;
+  left: 18px;
+  
+  
 }
 
 .text-four {
-  margin-left: 15px;
-  margin-top: 10px;
   font-size: 15px;
+  position: relative;
+  bottom: 12px;
+  line-height: 18px;
+ 
+ 
+  
 }
 /*parent container end here============================== */
 
@@ -444,6 +490,15 @@ body {
   width: 100%;
   height: 100%;
   color: white;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ 
+}
+
+.left-rectangle-overlay-text,h1,h3,p{
+  position: relative;
+  padding:0 20px;
 }
 
 .middle-rectangle {
@@ -462,6 +517,14 @@ body {
   height: 100%;
   color: white;
   font-family: roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middle-rectangle-overlay-text,h1,h3,p{
+  position: relative;
+  padding:0 20px;
 }
 
 .right-rectangle {
@@ -480,8 +543,16 @@ body {
   height: 100%;
   color: white;
   font-family: roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.right-rectangle-overlay-text,h1,h3,p{
+  position: relative;
+  padding:0 20px;
+ 
+}
 .left-image > img {
   width: 500px;
   height: 470px;
@@ -562,9 +633,16 @@ body {
   height: 65px;
   background-color: #0b1b81;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   display: flex;
+  flex-direction: row;
 }
+
+.contact-with a{
+  text-decoration: none;
+  color: white;
+}
+
 
 .bulk-text {
   display: flex;
@@ -587,6 +665,8 @@ body {
 .dummy-text {
   padding-top: 30px;
   color: white;
+  position: relative;
+  right: 20px;
 }
 
 .icons {
@@ -625,9 +705,9 @@ body {
 
 .second-text {
   color: white;
-  padding-left: 70px;
   position: relative;
   top: 20px;
+  padding-left: 29px;
 }
 
 .explor {
@@ -635,13 +715,14 @@ body {
   font-weight: 500;
   position: relative;
   bottom: 5px;
+  left: 20px;
 }
 
 .about {
   font-size: 17px;
   padding-top: 30px;
   position: relative;
-  top: 5px;
+  
 }
 
 .portf {
@@ -652,6 +733,7 @@ body {
 .contact {
   padding-top: 10px;
   font-size: 17px;
+
 }
 
 .privacy {
@@ -666,8 +748,9 @@ body {
 
 .third-text {
   color: white;
-  padding-left: 50px;
-  padding-top: 80px;
+  padding-top: 67px;
+  padding-left: 65px;
+ 
 }
 
 .news {
@@ -693,12 +776,9 @@ body {
   font-weight: 500;
   position: relative;
   bottom: 70px;
+  margin-top: 17px;
 }
 
-.number {
-  position: relative;
-  top: 20px;
-}
 
 .fourth-text-icon {
   display: flex;
@@ -712,21 +792,29 @@ body {
   width: 25px;
   height: 25px;
   position: relative;
-  left: 15px;
-  bottom: 38px;
+  left: 50px;
+  bottom: 50px;
 }
 
 .call {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 22px;
   position: relative;
-  top: 5px;
-  left: 15px;
+  left: 50px;
+  bottom: 15px;
+  
+  
 }
 
 .plaza {
   position: relative;
-  bottom: 32px;
+  bottom: 42px;
+  left: 10px;
+}
+
+.number {
+  position: relative;
+  left: 10px;
 }
 
 .fifth-text {
@@ -740,9 +828,10 @@ body {
   bottom: 40px;
   left: 100px;
   color: white;
+  font-size: 24px;
 }
 
-.email {
+.email  {
   width: 250px;
   height: 50px;
   background-color: white;
@@ -754,6 +843,11 @@ body {
   color: #5d5b59;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  bottom: 12px;
+}
+
+.fifth-text a{
+  text-decoration: none;
 }
 
 .aero-icon {
@@ -763,15 +857,10 @@ body {
   left: 20px;
 }
 
-.sixth-text {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  left: 100px;
-  top: 15px;
-}
 
-.search-footer-right {
+
+
+.sixth-text {
   width: 50px;
   height: 51px;
   background-color: orangered;
@@ -782,11 +871,16 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 7px;
+  position: relative;
+  left: 100px;
+ 
+  
 }
 
-.search-footer-right img {
-  width: 30px;
-  height: 30px;
+i{
+  font-size: 24px;
+  color: white;
 }
-/*------------responsive layout when max width is 700px---------- */
+
+
+
