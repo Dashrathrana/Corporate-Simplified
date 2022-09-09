@@ -10,17 +10,12 @@
   width: 100%;
   display: block;
   margin: auto;
- 
-  
-  
 }
 
-.nav-container ul li a{
+.nav-container ul li a {
   position: relative;
   right: 40px;
 }
-
-
 
 /* this is global,it will apply for whole page[website].======================== */
 body {
@@ -103,13 +98,12 @@ body {
   height: auto;
 }
 
-.nav-container-two{
+.nav-container-two {
   height: auto;
   max-width: 1420px;
   width: 100%;
   display: block;
   margin: auto;
- 
 }
 
 .navbar-2 ul {
@@ -174,7 +168,7 @@ body {
 }
 
 /* free consulting manu==================== */
-.button-menu{
+.button-menu {
   float: right;
   background-color: orangered;
   color: white;
@@ -188,10 +182,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  
 }
 
-.button-menu a{
+.button-menu a {
   text-decoration: none;
   color: white;
   font-size: 17px;
@@ -202,7 +195,6 @@ body {
 .navbar-2 li a:hover {
   color: orangered;
 }
-
 
 /*navigation two end here============================ */
 
@@ -230,7 +222,6 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   top: 5px;
- 
 }
 
 .overlay-text-one {
@@ -285,10 +276,9 @@ body {
   position: relative;
   right: 45px;
   top: 20px;
- 
 }
 
-.picture  {
+.picture {
   width: 350px;
   height: 350px;
   position: relative;
@@ -353,7 +343,6 @@ body {
   margin-left: 30px;
   font-weight: 500;
   position: relative;
- 
 }
 
 .child-two h4 {
@@ -362,7 +351,7 @@ body {
   font-weight: 400;
 }
 
-.child-two p{
+.child-two p {
   padding: 20px;
   position: relative;
   left: 12px;
@@ -392,14 +381,13 @@ body {
   flex-direction: column;
 }
 
-
-
 .container-two {
   display: flex;
   flex-direction: column;
 }
 
-.container-two,.text-one{
+.container-two,
+.text-one {
   margin-left: 31px;
   font-weight: bold;
   color: #4753a0;
@@ -407,14 +395,13 @@ body {
   font-size: 20px;
 }
 
-.container-two,p{
- position: relative;
- bottom: 12px;
- font-size: 15px;
- line-height: 18px;
- 
+.container-two,
+p {
+  position: relative;
+  bottom: 12px;
+  font-size: 15px;
+  line-height: 18px;
 }
-
 
 .another-container {
   display: flex;
@@ -435,7 +422,6 @@ body {
   margin-left: 30px;
   margin-top: 12px;
   position: relative;
- 
 }
 
 .one-more-container {
@@ -443,7 +429,7 @@ body {
   flex-direction: column;
 }
 
-.text-three  {
+.text-three {
   margin-left: 13px;
   font-size: 20px;
   color: #4753a0;
@@ -452,8 +438,6 @@ body {
   font-family: myried-pro;
   font-weight: bold;
   left: 18px;
-  
-  
 }
 
 .text-four {
@@ -461,9 +445,6 @@ body {
   position: relative;
   bottom: 12px;
   line-height: 18px;
- 
- 
-  
 }
 /*parent container end here============================== */
 
@@ -490,15 +471,17 @@ body {
   width: 100%;
   height: 100%;
   color: white;
- display: flex;
- justify-content: center;
- flex-direction: column;
- 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.left-rectangle-overlay-text,h1,h3,p{
+.left-rectangle-overlay-text,
+h1,
+h3,
+p {
   position: relative;
-  padding:0 20px;
+  padding: 0 20px;
 }
 
 .middle-rectangle {
@@ -522,9 +505,12 @@ body {
   flex-direction: column;
 }
 
-.middle-rectangle-overlay-text,h1,h3,p{
+.middle-rectangle-overlay-text,
+h1,
+h3,
+p {
   position: relative;
-  padding:0 20px;
+  padding: 0 20px;
 }
 
 .right-rectangle {
@@ -548,10 +534,12 @@ body {
   justify-content: center;
 }
 
-.right-rectangle-overlay-text,h1,h3,p{
+.right-rectangle-overlay-text,
+h1,
+h3,
+p {
   position: relative;
-  padding:0 20px;
- 
+  padding: 0 20px;
 }
 .left-image > img {
   width: 500px;
@@ -638,11 +626,10 @@ body {
   flex-direction: row;
 }
 
-.contact-with a{
+.contact-with a {
   text-decoration: none;
   color: white;
 }
-
 
 .bulk-text {
   display: flex;
@@ -722,7 +709,6 @@ body {
   font-size: 17px;
   padding-top: 30px;
   position: relative;
-  
 }
 
 .portf {
@@ -733,7 +719,6 @@ body {
 .contact {
   padding-top: 10px;
   font-size: 17px;
-
 }
 
 .privacy {
@@ -750,7 +735,6 @@ body {
   color: white;
   padding-top: 67px;
   padding-left: 65px;
- 
 }
 
 .news {
@@ -779,7 +763,6 @@ body {
   margin-top: 17px;
 }
 
-
 .fourth-text-icon {
   display: flex;
   flex-direction: column;
@@ -802,8 +785,6 @@ body {
   position: relative;
   left: 50px;
   bottom: 15px;
-  
-  
 }
 
 .plaza {
@@ -831,7 +812,7 @@ body {
   font-size: 24px;
 }
 
-.email  {
+.email {
   width: 250px;
   height: 50px;
   background-color: white;
@@ -846,7 +827,7 @@ body {
   bottom: 12px;
 }
 
-.fifth-text a{
+.fifth-text a {
   text-decoration: none;
 }
 
@@ -856,9 +837,6 @@ body {
   position: relative;
   left: 20px;
 }
-
-
-
 
 .sixth-text {
   width: 50px;
@@ -873,14 +851,9 @@ body {
   position: relative;
   position: relative;
   left: 100px;
- 
-  
 }
 
-i{
+i {
   font-size: 24px;
   color: white;
 }
-
-
-
